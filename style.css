@@ -1,0 +1,46 @@
+body{
+    background-color: black;
+    margin: 0;
+}
+
+#parents{
+    position: relative;
+}
+
+#img1{
+    width: 33.3%;
+    height: 254px;
+    position: absolute;
+    z-index: 1;
+    
+}
+
+#img2{
+    width: 36.3%;
+    height: 254px;
+    left: 471px;
+    position: absolute;
+    z-index: 5;
+}
+
+#img3{
+    width: 33.6%;
+    height: 254px;
+    left: 999px;
+    position: absolute;
+    z-index: 1;
+}
+
+@font-face {
+    font-family: "inter";
+    src: url("fonts/Inter.zip");
+}
+#child{
+    top: 195px;
+    left: 391px;
+    font-family: "inter";
+    position: absolute;
+    z-index: 9;
+    color: white;
+    text-align: center;
+}
